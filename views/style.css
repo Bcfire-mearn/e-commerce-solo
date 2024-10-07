@@ -1,0 +1,81 @@
+.maxheight {
+  height: 120px;
+}
+
+.my-boder > div {
+  border: 0.5px solid black;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.favorite-sidebar-menu {
+  min-width: 450px;
+  overflow: scroll;
+  max-height: 80vh;
+}
+.no-product-sidebar {
+  min-width: 20vw;
+  min-height: 20vh;
+}
+/* product */
+#main-item {
+  /* background-color: red; */
+  max-height: 50vh;
+  /* max-width: 50vw; */
+  overflow: scroll;
+}
+
+#other-item {
+  margin-top: 10px;
+  width: 80vw;
+  height: 40vh;
+  /* background-color: aqua; */
+  overflow: scroll;
+  display: flex;
+}
+
+.product-maxheight {
+  height: 40vh;
+}
+
+.img-selecte {
+  height: 25vh;
+}
+
+.p-product {
+  width: 20vw;
+}
+
+.each-product {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* product */
+
+/* login and sign up */
+.error-field {
+  /* visibility: hidden; */
+  color: red;
+  min-height: 22px;
+}
+
+.btn-remove {
+  max-height: 40px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto; /* Main takes available space, footer auto height */
+}
+footer {
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,384 @@
+{
+  "brands": [
+    {
+      "brandId": 1,
+      "name": "Angular"
+    },
+    {
+      "brandId": 2,
+      "name": "NetCore"
+    },
+    {
+      "brandId": 3,
+      "name": "VS Code"
+    },
+    {
+      "brandId": 4,
+      "name": "React"
+    },
+    {
+      "brandId": 5,
+      "name": "Typescript"
+    },
+    {
+      "brandId": 6,
+      "name": "Redis"
+    }
+  ],
+  "types": [
+    {
+      "typeId": 1,
+      "name": "Boards"
+    },
+    {
+      "typeId": 2,
+      "name": "Hats"
+    },
+    {
+      "typeId": 3,
+      "name": "Boots"
+    },
+    {
+      "typeId": 4,
+      "name": "Gloves"
+    }
+  ],
+  "products": [
+    {
+      "name": "Angular Speedster Board 2000",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "price": 200,
+      "pictureUrl": "images/products/sb-ang1.png",
+      "productTypeId": 1,
+      "productBrandId": 1
+    },
+    {
+      "name": "Green Angular Board 3000",
+      "description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+      "price": 150,
+      "pictureUrl": "images/products/sb-ang2.png",
+      "productTypeId": 1,
+      "productBrandId": 1
+    },
+    {
+      "name": "Core Board Speed Rush 3",
+      "description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+      "price": 180,
+      "pictureUrl": "images/products/sb-core1.png",
+      "productTypeId": 1,
+      "productBrandId": 2
+    },
+    {
+      "name": "Net Core Super Board",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+      "price": 300,
+      "pictureUrl": "images/products/sb-core2.png",
+      "productTypeId": 1,
+      "productBrandId": 2
+    },
+    {
+      "name": "React Board Super Whizzy Fast",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "price": 250,
+      "pictureUrl": "images/products/sb-react1.png",
+      "productTypeId": 1,
+      "productBrandId": 4
+    },
+    {
+      "name": "Typescript Entry Board",
+      "description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+      "price": 120,
+      "pictureUrl": "images/products/sb-ts1.png",
+      "productTypeId": 1,
+      "productBrandId": 5
+    },
+    {
+      "name": "Core Blue Hat",
+      "description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "price": 10,
+      "pictureUrl": "images/products/hat-core1.png",
+      "productTypeId": 2,
+      "productBrandId": 2
+    },
+    {
+      "name": "Green React Woolen Hat",
+      "description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+      "price": 8,
+      "pictureUrl": "images/products/hat-react1.png",
+      "productTypeId": 2,
+      "productBrandId": 4
+    },
+    {
+      "name": "Purple React Woolen Hat",
+      "description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "price": 15,
+      "pictureUrl": "images/products/hat-react2.png",
+      "productTypeId": 2,
+      "productBrandId": 4
+    },
+    {
+      "name": "Blue Code Gloves",
+      "description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+      "price": 18,
+      "pictureUrl": "images/products/glove-code1.png",
+      "productTypeId": 4,
+      "productBrandId": 3
+    },
+    {
+      "name": "Green Code Gloves",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+      "price": 15,
+      "pictureUrl": "images/products/glove-code2.png",
+      "productTypeId": 4,
+      "productBrandId": 3
+    },
+    {
+      "name": "Purple React Gloves",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+      "price": 16,
+      "pictureUrl": "images/products/glove-react1.png",
+      "productTypeId": 4,
+      "productBrandId": 4
+    },
+    {
+      "name": "Green React Gloves",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+      "price": 14,
+      "pictureUrl": "images/products/glove-react2.png",
+      "productTypeId": 4,
+      "productBrandId": 4
+    },
+    {
+      "name": "Redis Red Boots",
+      "description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+      "price": 250,
+      "pictureUrl": "images/products/boot-redis1.png",
+      "productTypeId": 3,
+      "productBrandId": 6
+    },
+    {
+      "name": "Core Red Boots",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+      "price": 189.99,
+      "pictureUrl": "images/products/boot-core2.png",
+      "productTypeId": 3,
+      "productBrandId": 2
+    },
+    {
+      "name": "Core Purple Boots",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+      "price": 199.99,
+      "pictureUrl": "images/products/boot-core1.png",
+      "productTypeId": 3,
+      "productBrandId": 2
+    },
+    {
+      "name": "Angular Purple Boots",
+      "description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+      "price": 150,
+      "pictureUrl": "images/products/boot-ang2.png",
+      "productTypeId": 3,
+      "productBrandId": 1
+    },
+    {
+      "name": "Angular Blue Boots",
+      "description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+      "price": 180,
+      "pictureUrl": "images/products/boot-ang1.png",
+      "productTypeId": 3,
+      "productBrandId": 1
+    },
+    {
+      "name": "Lamp",
+      "productBrandId": 1,
+      "productTypeId": 2,
+      "posted_by": "26872",
+      "zipcode": "94805",
+      "date_added": 1693267200,
+      "price": 400,
+      "age_years": 1.1,
+      "description": "A charming lamp that's been lighting up my reading nook...",
+      "pictureUrl": "images/products/lamp.jpeg"
+    },
+    {
+      "name": "Curtain",
+      "productBrandId": 2,
+      "productTypeId": 3,
+      "posted_by": "26872",
+      "zipcode": "94504",
+      "date_added": 1686960000,
+      "price": 1073,
+      "age_years": 2.94,
+      "description": "Elegant, flowy curtains that have graced my living room windows...",
+      "pictureUrl": "images/products/curtains1.jpeg"
+    },
+    {
+      "name": "Bookshelf",
+      "productBrandId": 2,
+      "productTypeId": 1,
+      "posted_by": "26872",
+      "zipcode": "94172",
+      "date_added": 1692403200,
+      "price": 1053,
+      "age_years": 2.88,
+      "description": "This sturdy, well-loved bookshelf has been my literary companion...",
+      "pictureUrl": "images/products/bookshelf3.jpeg"
+    },
+    {
+      "name": "Curtain",
+      "productBrandId": 3,
+      "productTypeId": 3,
+      "posted_by": "26872",
+      "zipcode": "94450",
+      "date_added": 1699315200,
+      "price": 1719,
+      "age_years": 4.71,
+      "description": "These curtains have been the backdrop of my study...",
+      "pictureUrl": "images/products/curtains2.jpeg"
+    },
+    {
+      "name": "Bookshelf",
+      "productBrandId": 4,
+      "productTypeId": 3,
+      "posted_by": "26872",
+      "zipcode": "94500",
+      "date_added": 1690675200,
+      "price": 430,
+      "age_years": 1.18,
+      "description": "A compact and practical bookshelf that's been a tiny library...",
+      "pictureUrl": "images/products/bookshelf1.jpeg"
+    },
+    {
+      "name": "Bookshelf",
+      "productBrandId": 4,
+      "productTypeId": 3,
+      "posted_by": "26872",
+      "zipcode": "94500",
+      "date_added": 1689379200,
+      "price": 430,
+      "age_years": 1.18,
+      "description": "This bookshelf has been a fixture in my home office...",
+      "pictureUrl": "images/products/bookshelf2.jpeg"
+    },
+    {
+      "name": "Desk Chair",
+      "productBrandId": 3,
+      "productTypeId": 1,
+      "posted_by": "31567",
+      "zipcode": "90210",
+      "date_added": 1688083200,
+      "price": 400,
+      "age_years": 1.09,
+      "description": "This desk chair has been my companion during long work hours...",
+      "pictureUrl": "images/products/desk-chair.jpeg"
+    },
+    {
+      "name": "Coffee Table",
+      "productBrandId": 5,
+      "productTypeId": 3,
+      "posted_by": "19876",
+      "zipcode": "10001",
+      "date_added": 1686787200,
+      "price": 600,
+      "age_years": 1.64,
+      "description": "This coffee table has served me well, holding countless cups of coffee...",
+      "pictureUrl": "images/products/coffee-table.jpeg"
+    },
+    {
+      "name": "Laptop Stand",
+      "productBrandId": 2,
+      "productTypeId": 1,
+      "posted_by": "14563",
+      "zipcode": "30303",
+      "date_added": 1685491200,
+      "price": 200,
+      "age_years": 0.55,
+      "description": "This laptop stand has been a lifesaver for my posture...",
+      "pictureUrl": "images/products/laptop-stand.jpeg"
+    },
+    {
+      "name": "Dining Table",
+      "productBrandId": 1,
+      "productTypeId": 2,
+      "posted_by": "23789",
+      "zipcode": "94102",
+      "date_added": 1684195200,
+      "price": 800,
+      "age_years": 2.19,
+      "description": "This dining table has been the centerpiece of many family gatherings...",
+      "pictureUrl": "images/products/dining-table.jpeg"
+    },
+    {
+      "name": "Couch",
+      "productBrandId": 5,
+      "productTypeId": 3,
+      "posted_by": "17890",
+      "zipcode": "90001",
+      "date_added": 1682899200,
+      "price": 1000,
+      "age_years": 2.74,
+      "description": "This couch has been a cozy spot for movie nights and lazy Sundays...",
+      "pictureUrl": "images/products/couch2.jpeg"
+    },
+    {
+      "name": "Office Desk",
+      "productBrandId": 2,
+      "productTypeId": 3,
+      "posted_by": "27654",
+      "zipcode": "90211",
+      "date_added": 1681603200,
+      "price": 900,
+      "age_years": 2.47,
+      "description": "This office desk has been my workspace for years...",
+      "pictureUrl": "images/products/office-desk.jpeg"
+    },
+    {
+      "name": "TV Stand",
+      "productBrandId": 5,
+      "productTypeId": 3,
+      "posted_by": "31567",
+      "zipcode": "90210",
+      "date_added": 1680307200,
+      "price": 700,
+      "age_years": 1.92,
+      "description": "This TV stand has held my entertainment system with ease...",
+      "pictureUrl": "images/products/tv-stand.jpeg"
+    },
+    {
+      "name": "Bed Frame",
+      "productBrandId": 4,
+      "productTypeId": 3,
+      "posted_by": "19876",
+      "zipcode": "10001",
+      "date_added": 1679011200,
+      "price": 1200,
+      "age_years": 3.29,
+      "description": "This bed frame has been a reliable support for many restful nights...",
+      "pictureUrl": "images/products/bed-frame.jpeg"
+    },
+    {
+      "name": "Side Table",
+      "productBrandId": 5,
+      "productTypeId": 3,
+      "posted_by": "23789",
+      "zipcode": "94102",
+      "date_added": 1677715200,
+      "price": 1100,
+      "age_years": 3.01,
+      "description": "This side table has been a convenient spot for lamps and books...",
+      "pictureUrl": "images/products/side-table.jpeg"
+    },
+    {
+      "name": "Filing Cabinet",
+      "productBrandId": 2,
+      "productTypeId": 3,
+      "posted_by": "17890",
+      "zipcode": "90001",
+      "date_added": 1677715200,
+      "price": 1300,
+      "age_years": 3.56,
+      "description": "This filing cabinet has organized many documents over the years...",
+      "pictureUrl": "images/products/filing-cabinet.jpeg"
+    }
+  ]
+}

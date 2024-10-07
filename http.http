@@ -1,0 +1,86 @@
+@path=http://localhost:3000
+# ============== USER LOG IN OUT=====================================================
+### load imgae
+Get http://localhost:3000/home/images/products/hat-core1.png
+
+### load imgae
+Get {{path}}/images/products/sb-ang1.png
+
+### Sign Up 
+curl --location '{{path}}/api/user/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "newAcount@gmail.com",
+    "password": "dHNlc3QhZGFmQTEyRkpLZiEzMg==",
+    "username":"newAcount"
+}'
+
+### Admin Log In 
+curl --location '{{path}}/api/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "emailOrUsername": "admin",
+    "password": "dHNlc3QhZGFmQTEyRkpLZiEzMg=="
+}'
+
+### Log In username
+curl --location '{{path}}/api/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "password": "dHNlc3QhZGFmQTEyRkpLZiEzMg==",
+    "emailOrUsername":"newAcount"
+}'
+
+### Log In email
+curl --location '{{path}}/api/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "password": "dHNlc3QhZGFmQTEyRkpLZiEzMg==",
+    "emailOrUsername":"newAcount@gmail.com"
+}'
+
+### Log OUT
+Get {{path}}/api/user/logout
+
+### Check me
+Get {{path}}/api/user/me
+
+### Admin access 
+Get {{path}}/api/user/admin
+
+
+# ============== USER LOG IN OUT=====================================================
+
+
+### GET product
+Get {{path}}/api/products
+
+### GET product page 1
+Get {{path}}/api/products?page=1&brand=brand1;brand2&type=type1;type2
+
+### GET product page 2
+Get {{path}}/api/products?page=1&brand=brand1;brand
+
+### GET product page 3
+Get {{path}}/api/products?page=3.1
+
+### Ge
+GET http://localhost:3000/api/products?page=1&brand=brand1;brand2&type=type1;type2
+
+### Ge
+GET  http://localhost:3000/api/products?page=1&type=type1;type2&brand=
+
+
+### Get product id = 66ff30041066cbb2f4a93e4d
+GET  http://localhost:3000/api/products/details/66ff30041066cbb2f4a93e4d
+
+
+###
+GET  http://localhost:3000/api/products?type=typE2;type2&brand=brand2
+
+### Add to list
+curl --location '{{path}}/api/products/addtolist' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "productId": "66ff30041066cbb2f4a93e4e"
+}'
